@@ -1,0 +1,2 @@
+training method,DNN architecture,acc. Mean (S.D.)
+transfer learning,VGG16,0.580 (0.030)
