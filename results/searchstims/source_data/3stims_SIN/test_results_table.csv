@@ -1,0 +1,3 @@
+training method,DNN architecture,acc-mean,acc-std
+transfer learning,alexnet,0.8645963541666667,0.010443891135068944
+transfer learning,VGG16,0.9057291666666667,0.003594774267423474
