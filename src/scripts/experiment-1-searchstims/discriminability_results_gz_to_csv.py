@@ -46,23 +46,6 @@ def main(results_gz_root,
     all_csv_filename : str
         filename for .csv saved that contains results from **all** results.gz files.
         Saved in source_data_root.
-    acc_diff_csv_filename : str
-        filename for .csv should be saved that contains group analysis derived from all results,
-        with difference in accuracy between set size 1 and 8.
-        Saved in source_data_root.
-    stim_acc_diff_csv_filename : str
-        filename for .csv saved that contains group analysis derived from all results,
-        with stimulus type column sorted by difference in accuracy between set size 1 and 8.
-        Saved in source_data_root.
-    net_acc_diff_csv_filename : str
-        filename for .csv saved that contains group analysis derived from all results,
-        with net name column sorted by mean accuracy across all stimulus types.
-        Saved in source_data_root.
-    acc_diff_by_stim_csv_filename : str
-        filename for .csv saved that contains group analysis derived from all results,
-        with difference in accuracy between set size 1 and 8,
-        pivoted so that columns are visual search stimulus type.
-        Saved in source_data_root.
     net_names : list
         of str, neural network architecture names
     methods : list
