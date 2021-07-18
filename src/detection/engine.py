@@ -79,8 +79,10 @@ def _get_gt_pred_df(model,
         # first use `target` to extend ground truth records
         assert len(target) == 1
         target = target[0]
-        for bbox, label in zip(target['boxes'].numpy().tolist(),
-                               target['labels'].numpy().tolist()):
+        bboxes = target['boxes'].numpy().tolist()
+        labels = target['labels'].numpy().tolist()
+        set_size = len(bboxes)
+        for bbox, label in zip(bboxes, labels):
             gt_records.append(
                 {
                     'id': batch_id,
@@ -88,7 +90,8 @@ def _get_gt_pred_df(model,
                     'xmin': bbox[0],
                     'ymin': bbox[1],
                     'xmax': bbox[2],
-                    'ymax': bbox[3]
+                    'ymax': bbox[3],
+                    'img_set_size': set_size,
                 }
             )
 
@@ -110,7 +113,8 @@ def _get_gt_pred_df(model,
                         'xmin': bbox[0],
                         'ymin': bbox[1],
                         'xmax': bbox[2],
-                        'ymax': bbox[3]
+                        'ymax': bbox[3],
+                        'img_set_size': set_size,
                     }
                 )
 
