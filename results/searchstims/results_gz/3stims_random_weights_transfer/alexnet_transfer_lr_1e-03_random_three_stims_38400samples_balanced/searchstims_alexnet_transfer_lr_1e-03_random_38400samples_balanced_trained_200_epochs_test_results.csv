@@ -1,0 +1,5 @@
+acc,loss_func,method,net_name,replicate,restore_path
+0.56203125,CE,transfer,alexnet,1,/home/bart/Documents/repos/coding/L2M/Nicholson-Prinz-2021/results/searchstims/checkpoints/3stims/alexnet_transfer_lr_1e-03_Clipart_three_stims_38400samples_balanced/trained_200_epochs/net_number_4/alexnet_trained_200_epochs_number_4
+0.63921875,CE,transfer,alexnet,2,/home/bart/Documents/repos/coding/L2M/Nicholson-Prinz-2021/results/searchstims/checkpoints/3stims/alexnet_transfer_lr_1e-03_Clipart_three_stims_38400samples_balanced/trained_200_epochs/net_number_4/alexnet_trained_200_epochs_number_4
+0.54890625,CE,transfer,alexnet,3,/home/bart/Documents/repos/coding/L2M/Nicholson-Prinz-2021/results/searchstims/checkpoints/3stims/alexnet_transfer_lr_1e-03_Clipart_three_stims_38400samples_balanced/trained_200_epochs/net_number_4/alexnet_trained_200_epochs_number_4
+0.548125,CE,transfer,alexnet,4,/home/bart/Documents/repos/coding/L2M/Nicholson-Prinz-2021/results/searchstims/checkpoints/3stims/alexnet_transfer_lr_1e-03_Clipart_three_stims_38400samples_balanced/trained_200_epochs/net_number_4/alexnet_trained_200_epochs_number_4
