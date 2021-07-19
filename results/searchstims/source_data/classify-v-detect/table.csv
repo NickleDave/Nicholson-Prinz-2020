@@ -1,0 +1,6 @@
+,network,task,objectness score threshold,n. region proposals (pre-NMS),n. region proposals (post-NMS),overlap threshold,acc. (set size 1),acc. (set size 2),acc. (set size 4),acc. (set size 8)
+0,VGG16,image classification,N/A,N/A,N/A,N/A,0.9950781249999999,0.971171875,0.897578125,0.7932812499999999
+1,VGG16,object detection,0.0,1000,1000,0.5,1.0,1.0,1.0,1.0
+2,VGG16,object detection,0.0,100,100,0.5,1.0,1.0,1.0,1.0
+3,VGG16,object detection,0.95,100,100,0.5,1.0,0.99875,1.0,1.0
+4,VGG16,object detection,0.95,100,100,0.95,0.9975,0.9975,0.99625,0.985
