@@ -25,6 +25,7 @@ python = ">3.7.1, <3.10"
 searchstims = {path = "../searchstims", develop = true}
 visual-search-nets = {path = "../visual-search-nets", develop = true}
 openpyxl = "^3.0.7"
+statsmodels = "^0.12.2"
 
 [tool.poetry.dev-dependencies]
 jupyterlab = "^3.0.16"
