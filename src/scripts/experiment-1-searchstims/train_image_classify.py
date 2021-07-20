@@ -1,5 +1,9 @@
-"""script used to train models on 'Clipart' domain of DomainNet dataset
-https://ai.bu.edu/M3SDA/#dataset
+"""script used to train DNN models for image classification
+
+used to produce models trained on:
+- 'Clipart' domain of DomainNet dataset
+  https://ai.bu.edu/M3SDA/#dataset
+- `Searchstims` dataset, produced with scripts in this repository
 
 adapted from
 https://github.com/pytorch/examples/blob/master/imagenet/main.py
@@ -382,7 +386,7 @@ MODEL_NAMES = sorted(name for name in models.__dict__
 
 
 def get_parser():
-    parser = argparse.ArgumentParser(description='script to train models on image dataset')
+    parser = argparse.ArgumentParser(description='script to train DNN models to classify image dataset')
     parser.add_argument('data', metavar='DIR',
                         help='path to dataset')
     parser.add_argument('-a', '--arch', metavar='ARCH', default='resnet18',
